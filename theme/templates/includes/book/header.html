@@ -1,5 +1,8 @@
 <div class="book-header">
     <!-- Actions Left -->
+    {% if githubId %}
+    <a href="{{ githubHost }}{{ githubId }}" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    {% endif %}
     <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
 
@@ -14,5 +17,5 @@
     {% endif %}
 
     <!-- Title -->
-    <h1><a href="{{ basePath }}/" >{{ title }}</a></h1>
+    <h1 class="main-title"><a href="{{ basePath }}/" >{{ title }}</a></h1>
 </div>
