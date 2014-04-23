@@ -1,0 +1,37 @@
+.book .book-body .page-wrapper .page-inner section.normal pre {
+	margin: 0px 0px;
+	font-size: small;
+}
+
+.table {
+	font-size: small;
+}
+
+.table code .table-code {
+	color: black;
+}
+
+.mandatory {
+	color: red;
+	font-weight: bold;
+}
+
+.very-small {
+	font-size: 8pt;
+}
+
+.table-caption {
+	font-size: small;
+}
+
+.borderless {
+	border: 0px;
+}
+
+.main-title {
+	font-weight: bold;
+}
+
+.book-summary {
+	font-size: 8pt;
+}

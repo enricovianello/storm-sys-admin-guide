@@ -12,7 +12,8 @@ module.exports = function (grunt) {
                 input: "./",
                 title: "StoRM System Administration Guide",
                 description: "StoRM installation and configuration guide.",
-                github: "enricovianello/storm-sys-admin-guide"
+                github: "enricovianello/storm-sys-admin-guide",
+                theme: "theme"
             }
         },
         'gh-pages': {
@@ -30,7 +31,7 @@ module.exports = function (grunt) {
                 root: '_book',
 
                 port: 4000,
-                host: "127.0.0.1",
+                host: "0.0.0.0",
 
                 showDir : true,
                 autoIndex: true,
